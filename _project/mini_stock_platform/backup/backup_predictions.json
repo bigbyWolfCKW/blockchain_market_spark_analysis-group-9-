@@ -1,0 +1,4322 @@
+[
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "700",
+    "predicted_price": 320.5202
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "9988",
+    "predicted_price": 89.4894
+  },
+  {
+    "time": "2026-03-20 09:30:00",
+    "stock_code": "3690",
+    "predicted_price": 102.7026
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "700",
+    "predicted_price": 320.8205
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "9988",
+    "predicted_price": 89.6896
+  },
+  {
+    "time": "2026-03-20 09:30:05",
+    "stock_code": "3690",
+    "predicted_price": 102.5024
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "700",
+    "predicted_price": 321.321
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "9988",
+    "predicted_price": 89.8898
+  },
+  {
+    "time": "2026-03-20 09:30:10",
+    "stock_code": "3690",
+    "predicted_price": 103.0029
+  }
+]

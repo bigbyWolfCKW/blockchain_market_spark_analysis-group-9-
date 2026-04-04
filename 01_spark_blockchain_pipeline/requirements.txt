@@ -1,0 +1,8 @@
+pyspark
+python-dotenv
+pandas
+numpy
+psycopg2-binary
+requests
+websocket-client
+websockets
