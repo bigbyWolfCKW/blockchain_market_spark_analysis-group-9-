@@ -71,17 +71,25 @@ Install Python 3.11 via UV
 ```bash
 uv python install 3.11
 ```
-Update bashrc
+Update Linux environment path
 ```bash
+# 1) open bashrc
 vim ~/.bashrc
-```
-Place these lines in end of the file, with \<repo folder> replaced as the folder name of the repo
-```bash
+
+# 2) Add these lines at the end of the file
+
+## Spark
 export SPARK_HOME=$HOME/spark
 export PATH=$SPARK_HOME/bin:$PATH
 export PATH=$SPARK_HOME/sbin:$PATH
+
+## Pyspark
+## Replace \<repo folder> as the folder name of the repo, e.g blockchain
 export PYSPARK_PYTHON=$HOME/<repo folder>/.venv/bin/python3
 export PYSPARK_DRIVER_PYTHON=$HOME/<repo folder>/.venv/bin/python3
+
+## UV cache
+export UV_CACHE_DIR=$HOME/.cache/uv
 ```
 
 ### 3. Clone the repository into specific folder
