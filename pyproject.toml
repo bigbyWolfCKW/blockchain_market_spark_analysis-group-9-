@@ -1,0 +1,16 @@
+[project]
+name = "blockchain-market-spark-analysis-group-9"
+version = "0.1.0"
+description = "blockchain-market-spark-analysis-group-9"
+readme = "README.md"
+requires-python = "~=3.11.0"
+dependencies = [
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "psycopg2-binary>=2.9.12",
+    "pyspark>=4.1.1",
+    "python-dotenv>=1.2.2",
+    "requests>=2.33.1",
+    "websocket-client>=1.9.0",
+    "websockets>=16.0",
+]

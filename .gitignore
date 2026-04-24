@@ -3,3 +3,4 @@ data/
 .env
 _project/
 .venv/
+.idea/
