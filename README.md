@@ -43,21 +43,70 @@ BLOCKCHAIN/
 ```
 ## How to Run
 
-### 1. Clone the repository
+### 1. Prerequisite
+This repo is designed to be executed in Linux or WSL2 environment, with specific Java SDK, Apache Spark and python version.
 ```bash
-git clone <your-repo-url>
-cd BLOCKCHAIN
+Java JDK 21.0.10
+Apache Spark 4.1.1
+Python 3.11
 ```
-### 2. Create and activate a virtual environment
+### 2. Environment Setup
+Install JDK 21
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+sudo apt update
+sudo apt install openjdk-21-jdk -y
 ```
-### 3. Install dependencies
+Install Spark 4.1.1
 ```bash
-pip install -r requirements.txt
+# 1. Create the target directory
+mkdir -p $HOME/spark
+# 2. Download spark and unzip into target directory
+curl -sL "https://archive.apache.org/dist/spark/spark-4.1.1/spark-4.1.1-bin-hadoop3.tgz" | tar -xz -C $HOME/spark --strip-components=1
 ```
-### 4. Set environment variables
+Install UV (for environment management)
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+Install Python 3.11 via UV
+```bash
+uv python install 3.11
+```
+Update bashrc
+```bash
+vim ~/.bashrc
+```
+Place these lines in end of the file, with \<repo folder> replaced as the folder name of the repo
+```bash
+export SPARK_HOME=$HOME/spark
+export PATH=$SPARK_HOME/bin:$PATH
+export PATH=$SPARK_HOME/sbin:$PATH
+export PYSPARK_PYTHON=$HOME/<repo folder>/.venv/bin/python3
+export PYSPARK_DRIVER_PYTHON=$HOME/<repo folder>/.venv/bin/python3
+```
+
+### 3. Clone the repository into specific folder
+This git command will clone the repo into a folder named as blockchain. You can freely change the name of folder.
+```bash
+git clone https://github.com/bigbyWolfCKW/blockchain_market_spark_analysis-group-9-.git blockchain
+```
+
+### 4. Create virtual environment and install python dependencies via UV
+```bash
+cd blockchain
+uv sync
+```
+### 5. List of dependencies
+```bash
+"numpy>=2.4.4"
+"pandas>=3.0.2"
+"psycopg2-binary>=2.9.12"
+"pyspark>=4.1.1"
+"python-dotenv>=1.2.2"
+"requests>=2.33.1"
+"websocket-client>=1.9.0"
+"websockets>=16.0"
+```
+### 6. Set environment variables
 Create a .env file in the project root:
 ```bash
 DB_HOST=your_host
@@ -67,7 +116,7 @@ DB_USER=your_username
 DB_PASSWORD=your_password
 DB_DRIVER=org.postgresql.Driver
 ```
-### 5. Run the pipeline
+### 7. Run the pipeline
 ```bash
 python 01_spark_blockchain_pipeline/main_run.py --days 30
 ```
