@@ -84,7 +84,7 @@ export PATH=$SPARK_HOME/bin:$PATH
 export PATH=$SPARK_HOME/sbin:$PATH
 
 ## Pyspark
-## Replace \<repo folder> as the folder name of the repo, e.g blockchain
+## Replace <repo folder> as the folder name of the repo, e.g blockchain
 export PYSPARK_PYTHON=$HOME/<repo folder>/.venv/bin/python3
 export PYSPARK_DRIVER_PYTHON=$HOME/<repo folder>/.venv/bin/python3
 

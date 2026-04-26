@@ -18,7 +18,7 @@ def make_date_paths(base: str, start_date: str, num_days: int) -> list[str]:
 def main():
     parser = argparse.ArgumentParser(description="Load AWS BTC raw transactions")
     parser.add_argument("--start-date", type=str, default="2026-01-01")
-    parser.add_argument("--days", type=int, default=7)
+    parser.add_argument("--days", type=int, default=1)
     args = parser.parse_args()
 
     spark = (
@@ -37,10 +37,19 @@ def main():
             "org.apache.hadoop.fs.s3a.AnonymousAWSCredentialsProvider"
         )
         .config("spark.driver.memory", "4g")
+        .config("spark.hadoop.fs.s3a.connection.timeout", "1200000")
+        .config("spark.hadoop.fs.s3a.connection.maximum", "100")
+        .config("spark.hadoop.fs.s3a.threads.max", "20")
+        .config("spark.hadoop.fs.s3a.retry.limit", "20")
+        .config("spark.hadoop.fs.s3a.retry.interval", "5s")
         .getOrCreate()
     )
 
     spark.sparkContext.setLogLevel("ERROR")
+    # Speed up S3 listing and prevent timeouts during the initial scan
+    spark.conf.set("spark.sql.sources.parallelPartitionDiscovery.threshold", "1")
+    spark.conf.set("spark.hadoop.mapreduce.fileoutputcommitter.algorithm.version", "2")
+    spark.conf.set("spark.hadoop.fs.s3a.endpoint", "s3.ap-east-1.amazonaws.com")
 
     base_s3_path = "s3a://aws-public-blockchain/v1.0/btc/transactions/"
     output_path = "data/raw/aws_btc_transactions"
