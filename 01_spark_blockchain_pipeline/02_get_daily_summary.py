@@ -14,7 +14,7 @@ def get_daily_summary():
     )
 
     logger.info(f"=== Reading raw AWS BTC transactions from {DATA_FOLDER} ===")
-    df = spark.read.option("basePath", str(DATA_FOLDER)).parquet(str(Path(DATA_FOLDER, f"chain=BTC")))
+    df = spark.read.option("basePath", str(DATA_FOLDER)).parquet(str(Path(DATA_FOLDER, f"chain=btc")))
 
     logger.info("=== Building AWS BTC daily transaction summary ===")
     daily_summary = (
