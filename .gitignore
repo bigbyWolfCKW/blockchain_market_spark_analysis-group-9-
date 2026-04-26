@@ -1,5 +1,6 @@
 scripts/
 data/
+output/
 .env
 _project/
 .venv/
