@@ -16,9 +16,11 @@ def get_daily_summary():
     logger.info(f"=== Reading raw AWS BTC transactions from {DATA_FOLDER} ===")
     df = spark.read.option("basePath", str(DATA_FOLDER)).parquet(str(Path(DATA_FOLDER, f"chain=btc")))
 
-    logger.info("=== Building AWS BTC daily transaction summary ===")
-    daily_summary = (
-        df.groupBy(F.col("s3_date").alias("date"))
+    logger.info("=== Building AWS BTC hour transaction summary ===")
+    hour_summary = (
+        df.withColumn("hour", F.hour("block_timestamp"))
+        .withColumn("date", F.to_date("block_timestamp"))
+        .groupBy("date", "hour")
         .agg(
             F.count("*").alias("tx_count"),
             F.round(F.avg("size"), 8).alias("avg_tx_size"),
@@ -28,14 +30,14 @@ def get_daily_summary():
             F.sum("fee").alias("total_fee"),
             F.sum("input_value").alias("total_input_value")
         )
-        .orderBy("date")
+        .orderBy("date","hour")
     )
-    daily_summary.show(50, truncate=False)
+    hour_summary.show(100, truncate=False)
 
-    daily_summary_output = Path(OUTPUT_FOLDER, "daily_summary")
-    logger.info(f"=== Saving AWS daily summary to {daily_summary_output} ===")
+    hour_summary_output = Path(OUTPUT_FOLDER, "hour_summary")
+    logger.info(f"=== Saving AWS hour summary to {hour_summary_output} ===")
     OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
-    daily_summary.write.mode("overwrite").parquet(str(daily_summary_output))
+    hour_summary.write.mode("overwrite").parquet(str(hour_summary_output))
     logger.info("Save completed successfully.")
     spark.stop()
 
