@@ -44,11 +44,12 @@ BLOCKCHAIN/
 ## How to Run
 
 ### 1. Prerequisite
-This repo is designed to be executed in Linux or WSL2 environment, with specific Java SDK, Apache Spark and python version.
+This repo is designed to be executed in Linux or WSL2 environment, with specific Java SDK, Apache Spark and python version. PostgreSQL is used in market data steps.
 ```bash
 Java JDK 21.0.10
 Apache Spark 4.1.1
 Python 3.11
+PostgreSQL 16.13
 ```
 ### 2. Environment Setup
 Install JDK 21
@@ -63,6 +64,11 @@ mkdir -p $HOME/spark
 # 2. Download spark and unzip into target directory
 curl -sL "https://archive.apache.org/dist/spark/spark-4.1.1/spark-4.1.1-bin-hadoop3.tgz" | tar -xz -C $HOME/spark --strip-components=1
 ```
+Install PostgreSQL
+```bash
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+```
 Install UV (for environment management)
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -71,6 +77,7 @@ Install Python 3.11 via UV
 ```bash
 uv python install 3.11
 ```
+
 Update Linux environment path
 ```bash
 # 1) open bashrc
