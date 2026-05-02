@@ -2,8 +2,9 @@ import requests
 import pandas as pd
 import time
 from datetime import datetime
-from pyspark.sql import SparkSession, functions as F
+from pyspark.sql import SparkSession, functions as F, Window
 from pyspark.sql.types import DoubleType
+
 
 from loguru import logger
 from pathlib import Path
@@ -68,15 +69,30 @@ def get_binance_spark():
         .getOrCreate()
     )
 
-    logger.info("=== Building AWS BTC daily transaction summary ===")
+    logger.info("=== Building BTCUSDT data ===")
     binance_spark = spark.createDataFrame(binance_pd)
 
     # Cast price to double for math operations
-    binance_spark = binance_spark.withColumn("btc_price", binance_spark["close"].cast(DoubleType())) \
-        .drop("close")
+    window_lag = Window.orderBy("date")
+    binance_spark = binance_spark.withColumn("close", F.col("close").cast(DoubleType())) \
+        .withColumn("prev_price", F.lag("close", 1).over(window_lag)) \
+        .withColumn("daily_return", (F.col("close") - F.col("prev_price")) / F.col("prev_price")) \
+        .withColumn("daily_return_t+1", F.lead("daily_return", 1).over(window_lag))
+
 
     # Check the data
     binance_spark.show(5)
+
+    logger.info(f"=== Saving BTCUSDT data to {OUTPUT_FOLDER} ===")
+    output_path = Path(OUTPUT_FOLDER, "BTCUSDT")
+    binance_spark.write.mode("overwrite").parquet(str(output_path))
+    logger.info(f"=== Saving pandas dataframe to {OUTPUT_FOLDER} ===")
+    pandas_df = binance_spark.toPandas()
+    pandas_df['date'] = pd.to_datetime(pandas_df['date'])
+    pandas_df = pandas_df.sort_values('date')
+    pandas_df.to_csv(Path(OUTPUT_FOLDER,"BTCUSDT.csv"))
+    logger.info("Save completed successfully.")
+    spark.stop()
 
 if __name__ == "__main__":
     get_binance_spark()
