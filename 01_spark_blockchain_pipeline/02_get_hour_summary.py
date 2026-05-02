@@ -36,7 +36,7 @@ def get_daily_summary():
 
     hour_summary_output = Path(OUTPUT_FOLDER, "hour_summary")
     logger.info(f"=== Saving AWS hour summary to {hour_summary_output} ===")
-    OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
+    hour_summary_output.mkdir(parents=True, exist_ok=True)
     hour_summary.write.mode("overwrite").parquet(str(hour_summary_output))
     logger.info("Save completed successfully.")
     spark.stop()
