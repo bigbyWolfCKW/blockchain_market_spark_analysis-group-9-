@@ -3,6 +3,7 @@ from pyspark.sql import functions as F
 from pyspark.sql.window import Window
 from pathlib import Path
 from loguru import logger
+import pandas as pd
 
 DATA_FOLDER = Path("./data")
 OUTPUT_FOLDER = Path("./output")
@@ -148,6 +149,11 @@ def main():
     logger.info(f"=== Saving richer AWS BTC features to {OUTPUT_FOLDER} ===")
     output_path = Path(OUTPUT_FOLDER, "daily_features")
     df_features.write.mode("overwrite").parquet(str(output_path))
+    logger.info(f"=== Saving pandas dataframe to {OUTPUT_FOLDER} ===")
+    pandas_df = df.toPandas()
+    pandas_df['date'] = pd.to_datetime(pandas_df['date'])
+    pandas_df = pandas_df.sort_values('date')
+    pandas_df.to_csv(Path(OUTPUT_FOLDER,"daily_features.csv"))
     logger.info("Save completed successfully.")
     spark.stop()
 
