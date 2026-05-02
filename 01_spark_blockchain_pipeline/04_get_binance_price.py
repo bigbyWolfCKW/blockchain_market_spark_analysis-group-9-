@@ -62,6 +62,7 @@ def get_binance_spark():
     logger.info(f"=== Reading BTCUSDT Price from Binance API ===")
     binance_pd = get_binance_history()
 
+    logger.info("=== Building BTCUSDT data ===")
     spark = (
         SparkSession.builder
         .appName("load-aws-btc-transactions")
@@ -69,11 +70,10 @@ def get_binance_spark():
         .getOrCreate()
     )
 
-    logger.info("=== Building BTCUSDT data ===")
     binance_spark = spark.createDataFrame(binance_pd)
 
     # Cast price to double for math operations
-    window_lag = Window.orderBy("date")
+    window_lag = Window.partitionBy(F.lit(1)).orderBy("date")
     binance_spark = binance_spark.withColumn("close", F.col("close").cast(DoubleType())) \
         .withColumn("prev_price", F.lag("close", 1).over(window_lag)) \
         .withColumn("daily_return", (F.col("close") - F.col("prev_price")) / F.col("prev_price")) \
