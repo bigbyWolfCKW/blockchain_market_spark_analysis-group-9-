@@ -150,7 +150,7 @@ def main():
     output_path = Path(OUTPUT_FOLDER, "daily_features")
     df_features.write.mode("overwrite").parquet(str(output_path))
     logger.info(f"=== Saving pandas dataframe to {OUTPUT_FOLDER} ===")
-    pandas_df = df.toPandas()
+    pandas_df = df_features.toPandas()
     pandas_df['date'] = pd.to_datetime(pandas_df['date'])
     pandas_df = pandas_df.sort_values('date')
     pandas_df.to_csv(Path(OUTPUT_FOLDER,"daily_features.csv"))
