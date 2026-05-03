@@ -24,7 +24,7 @@ def main():
     df_btcusdt = spark.read.option("basePath", str(OUTPUT_FOLDER)).parquet(str(Path(OUTPUT_FOLDER, "BTCUSDT")))
 
     final_df = df_features.join(df_btcusdt, on="date", how="left")
-    final_df.head(5)
+    final_df.show(50, truncate=False)
     spark.stop()
     return
 
