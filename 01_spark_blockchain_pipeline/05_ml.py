@@ -32,12 +32,9 @@ def main():
 
     # Candidate feature columns based on your new blockchain feature pipeline
     candidate_features = [
-        "tx_count",
-        "tx_count_7d_avg",
-        "tx_count_lag_1",
-        "tx_count_daily_change_pct",
         "tx_count_7d_zscore",
-        "is_anomaly_numeric",
+        "total_fee_7d_zscore",
+        "total_input_value_7d_zscore",
     ]
 
     target_column = ['daily_return_t+1']

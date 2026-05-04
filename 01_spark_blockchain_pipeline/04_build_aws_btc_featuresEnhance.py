@@ -40,9 +40,19 @@ def main():
         .withColumn("tx_count_7d_avg", F.round(F.avg("tx_count").over(window_7d), 2))
         .withColumn("tx_count_14d_avg", F.round(F.avg("tx_count").over(window_14d), 2))
         .withColumn("tx_count_30d_avg", F.round(F.avg("tx_count").over(window_30d), 2))
+        .withColumn("total_fee_3d_avg", F.round(F.avg("total_fee").over(window_3d), 2))
+        .withColumn("total_fee_7d_avg", F.round(F.avg("total_fee").over(window_7d), 2))
+        .withColumn("total_fee_14d_avg", F.round(F.avg("total_fee").over(window_14d), 2))
+        .withColumn("total_fee_30d_avg", F.round(F.avg("total_fee").over(window_30d), 2))
+        .withColumn("total_input_value_3d_avg", F.round(F.avg("total_input_value").over(window_3d), 2))
+        .withColumn("total_input_value_7d_avg", F.round(F.avg("total_input_value").over(window_7d), 2))
+        .withColumn("total_input_value_14d_avg", F.round(F.avg("total_input_value").over(window_14d), 2))
+        .withColumn("total_input_value_30d_avg", F.round(F.avg("total_input_value").over(window_30d), 2))
 
         # Rolling std
         .withColumn("tx_count_7d_std", F.round(F.stddev("tx_count").over(window_7d), 2))
+        .withColumn("total_fee_7d_std", F.round(F.stddev("total_fee").over(window_7d), 2))
+        .withColumn("total_input_value_7d_std", F.round(F.stddev("total_input_value").over(window_7d), 2))
 
         # Absolute changes
         .withColumn("tx_count_change_1d", F.col("tx_count") - F.col("tx_count_lag_1"))
@@ -94,6 +104,30 @@ def main():
             ).otherwise(
                 F.round(
                     (F.col("tx_count") - F.col("tx_count_7d_avg")) / F.col("tx_count_7d_std"),
+                    2
+                )
+            )
+        )
+        .withColumn(
+            "total_fee_7d_zscore",
+            F.when(
+                F.col("total_fee_7d_std").isNull() | (F.col("total_fee_7d_std") == 0),
+                None
+            ).otherwise(
+                F.round(
+                    (F.col("total_fee") - F.col("total_fee_7d_avg")) / F.col("total_fee_7d_std"),
+                    2
+                )
+            )
+        )
+        .withColumn(
+            "total_input_value_7d_zscore",
+            F.when(
+                F.col("total_input_value_7d_std").isNull() | (F.col("total_input_value_7d_std") == 0),
+                None
+            ).otherwise(
+                F.round(
+                    (F.col("total_input_value") - F.col("total_input_value_7d_avg")) / F.col("total_input_value_7d_std"),
                     2
                 )
             )
