@@ -24,7 +24,63 @@ def main():
     df_btcusdt = spark.read.option("basePath", str(OUTPUT_FOLDER)).parquet(str(Path(OUTPUT_FOLDER, "BTCUSDT")))
 
     final_df = df_features.join(df_btcusdt, on="date", how="left")
-    final_df.show(50, truncate=False)
+    final_df = final_df.withColumn(
+        "is_anomaly_numeric",
+        F.when(F.col("is_anomaly") == True, 1.0).otherwise(0.0)
+    )
+    final_df.show(5, truncate=False)
+
+    # Candidate feature columns based on your new blockchain feature pipeline
+    candidate_features = [
+        "tx_count",
+        "tx_count_7d_avg",
+        "tx_count_lag_1",
+        "tx_count_daily_change_pct",
+        "tx_count_7d_zscore",
+        "is_anomaly_numeric",
+    ]
+
+    target_column = ['daily_return_t+1']
+
+    logger.info(f"=== Using target column: {candidate_features} ===")
+    logger.info(f"=== Using feature columns: {target_column} ===")
+
+    ml_dataset = final_df.select(candidate_features+target_column).dropna()
+
+    assembler = VectorAssembler(
+        inputCols=candidate_features,
+        outputCol="features"
+    )
+    ml_dataset_trasform = assembler.transform(ml_dataset)
+
+    logger.info("=== ML dataset preview ===")
+    ml_dataset_trasform.show(10, truncate=False)
+
+    train_data, test_data = ml_dataset_trasform.randomSplit([0.8, 0.2], seed=42)
+    logger.info("=== Training Random Forest regressor ===")
+    Regressor = RandomForestRegressor(
+        featuresCol="features",
+        labelCol=target_column[0],
+        numTrees=20,
+        seed=42
+    )
+    model = Regressor.fit(train_data)
+    predictions = model.transform(test_data)
+    logger.info("=== Model training completed successfully. ===")
+
+    logger.info("=== Prediction preview ===")
+    preview_cols = [target_column[0], "prediction"]
+    predictions.select(preview_cols).show(10, truncate=False)
+
+
+    evaluator = RegressionEvaluator(
+        labelCol=target_column[0],
+        predictionCol="prediction",
+        metricName="rmse"
+    )
+    rmse = evaluator.evaluate(predictions)
+    logger.info(f"Test RMSE: ${rmse:.2f}")
+
     spark.stop()
     return
 
