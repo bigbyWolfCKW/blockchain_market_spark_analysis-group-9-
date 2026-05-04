@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as F
-from pyspark.ml.feature import VectorAssembler
-from pyspark.ml.regression import RandomForestRegressor
+from pyspark.ml.feature import VectorAssembler, StandardScaler
+from pyspark.ml.regression import RandomForestRegressor, LinearRegression
 from pyspark.ml.evaluation import RegressionEvaluator
 from loguru import logger
 from pathlib import Path
@@ -51,35 +51,47 @@ def main():
         inputCols=candidate_features,
         outputCol="features"
     )
-    ml_dataset_trasform = assembler.transform(ml_dataset)
+    ml_dataset_transform = assembler.transform(ml_dataset)
 
     logger.info("=== ML dataset preview ===")
-    ml_dataset_trasform.show(10, truncate=False)
+    ml_dataset_transform.show(10, truncate=False)
 
-    train_data, test_data = ml_dataset_trasform.randomSplit([0.8, 0.2], seed=42)
-    logger.info("=== Training Random Forest regressor ===")
-    Regressor = RandomForestRegressor(
-        featuresCol="features",
-        labelCol=target_column[0],
-        numTrees=20,
-        seed=42
-    )
-    model = Regressor.fit(train_data)
-    predictions = model.transform(test_data)
-    logger.info("=== Model training completed successfully. ===")
+    scaler = StandardScaler(inputCol="features", outputCol="scaled_features",
+                            withStd=True, withMean=False)
+    scaler_model = scaler.fit(ml_dataset_transform)
+    ml_dataset_trasform_scaled = scaler_model.transform(ml_dataset_transform)
+    train_df = ml_dataset_trasform_scaled.limit(int(ml_dataset_trasform_scaled.count() * 0.8))
+    test_df = ml_dataset_trasform_scaled.subtract(train_df)
 
-    logger.info("=== Prediction preview ===")
-    preview_cols = [target_column[0], "prediction"]
-    predictions.select(preview_cols).show(10, truncate=False)
+    regression = LinearRegression(featuresCol="scaled_features", labelCol=target_column[0])
+    lr_model = regression.fit(train_df)
 
+    predictions = lr_model.transform(test_df)
+    evaluator = RegressionEvaluator(labelCol=target_column[0], predictionCol="prediction", metricName="r2")
+    logger.info(f"R-Squared on Test Data: {evaluator.evaluate(predictions):.4f}")
 
-    evaluator = RegressionEvaluator(
-        labelCol=target_column[0],
-        predictionCol="prediction",
-        metricName="rmse"
-    )
-    rmse = evaluator.evaluate(predictions)
-    logger.info(f"Test RMSE: ${rmse:.2f}")
+    # train_data, test_data = ml_dataset_trasform.randomSplit([0.8, 0.2], seed=42)
+    # logger.info("=== Training Random Forest regressor ===")
+    # Regressor = RandomForestRegressor(
+    #     featuresCol="features",
+    #     labelCol=target_column[0],
+    #     numTrees=20,
+    #     seed=42
+    # )
+    # model = Regressor.fit(train_data)
+    # predictions = model.transform(test_data)
+    # logger.info("=== Model training completed successfully. ===")
+    #
+    # logger.info("=== Prediction preview ===")
+    # preview_cols = [target_column[0], "prediction"]
+    # predictions.select(preview_cols).show(10, truncate=False)
+    # evaluator = RegressionEvaluator(
+    #     labelCol=target_column[0],
+    #     predictionCol="prediction",
+    #     metricName="rmse"
+    # )
+    # rmse = evaluator.evaluate(predictions)
+    # logger.info(f"Test RMSE: ${rmse:.2f}")
 
     spark.stop()
     return
