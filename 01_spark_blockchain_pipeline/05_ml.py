@@ -64,6 +64,9 @@ def main():
     lr_model = regression.fit(train_df)
 
     predictions = lr_model.transform(test_df)
+    preview_cols = [target_column[0], "prediction"]
+    predictions.select(preview_cols).show(10, truncate=False)
+
     evaluator = RegressionEvaluator(labelCol=target_column[0], predictionCol="prediction", metricName="r2")
     logger.info(f"R-Squared on Test Data: {evaluator.evaluate(predictions):.4f}")
 
