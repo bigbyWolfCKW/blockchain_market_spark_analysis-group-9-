@@ -5,6 +5,8 @@ from pyspark.ml.regression import RandomForestRegressor, LinearRegression
 from pyspark.ml.evaluation import RegressionEvaluator
 from loguru import logger
 from pathlib import Path
+import pandas as pd
+
 
 DATA_FOLDER = Path("./data")
 OUTPUT_FOLDER = Path("./output")
@@ -70,7 +72,7 @@ def main():
     preview_cols = [target_column[0], "prediction"]
     predictions.select(preview_cols).show(10, truncate=False)
     predictions_df = predictions.toPandas()
-    predictions_df['date'] = predictions_df.to_datetime(predictions_df['date'])
+    predictions_df['date'] = pd.to_datetime(predictions_df['date'])
     predictions_df = predictions_df.sort_values('date')
     predictions_df.to_csv(Path(OUTPUT_FOLDER,"daily_predictions.csv"))
 
