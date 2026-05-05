@@ -65,6 +65,17 @@ def main():
     lr_model = regression.fit(train_df)
 
     predictions = lr_model.transform(test_df)
+    predictions_insample = lr_model.transform(train_df)
+
+    logger.info("=== Prediction (in sample) preview ===")
+    preview_cols = [target_column[0], "prediction"]
+    predictions_insample.select(preview_cols).show(10, truncate=False)
+    predictions_insample_df = predictions_insample.toPandas()
+    predictions_insample_df['date'] = pd.to_datetime(predictions_insample_df['date'])
+    predictions_insample_df = predictions_insample_df.sort_values('date')
+    predictions_insample_df.to_csv(Path(OUTPUT_FOLDER,"daily_predictions_insample.csv"))
+    evaluator = RegressionEvaluator(labelCol=target_column[0], predictionCol="prediction", metricName="r2")
+    logger.info(f"R-Squared on Test Data: {evaluator.evaluate(predictions_insample):.4f}")
 
     logger.info("=== Prediction preview ===")
     preview_cols = [target_column[0], "prediction"]
