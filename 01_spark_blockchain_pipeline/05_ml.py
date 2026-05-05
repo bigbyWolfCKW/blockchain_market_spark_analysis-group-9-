@@ -69,6 +69,10 @@ def main():
     logger.info("=== Prediction preview ===")
     preview_cols = [target_column[0], "prediction"]
     predictions.select(preview_cols).show(10, truncate=False)
+    predictions_df = predictions.toPandas()
+    predictions_df['date'] = predictions_df.to_datetime(predictions_df['date'])
+    predictions_df = predictions_df.sort_values('date')
+    predictions_df.to_csv(Path(OUTPUT_FOLDER,"daily_predictions.csv"))
 
     evaluator = RegressionEvaluator(labelCol=target_column[0], predictionCol="prediction", metricName="r2")
     logger.info(f"R-Squared on Test Data: {evaluator.evaluate(predictions):.4f}")
