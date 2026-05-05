@@ -60,10 +60,13 @@ def main():
     train_df = ml_dataset_trasform_scaled.limit(int(ml_dataset_trasform_scaled.count() * 0.8))
     test_df = ml_dataset_trasform_scaled.subtract(train_df)
 
-    regression = LinearRegression(featuresCol="scaled_features", labelCol=target_column[0])
+    regression = LinearRegression(featuresCol="scaled_features", labelCol=target_column[0],
+                                  regParam=0.3, elasticNetParam=0.8)
     lr_model = regression.fit(train_df)
 
     predictions = lr_model.transform(test_df)
+
+    logger.info("=== Prediction preview ===")
     preview_cols = [target_column[0], "prediction"]
     predictions.select(preview_cols).show(10, truncate=False)
 
