@@ -39,7 +39,7 @@ def main():
         "total_input_value_7d_zscore",
     ]
 
-    target_column = ['daily_return_t+1']
+    target_column = ['close']
 
     logger.info(f"=== Using target column: {candidate_features} ===")
     logger.info(f"=== Using feature columns: {target_column} ===")
