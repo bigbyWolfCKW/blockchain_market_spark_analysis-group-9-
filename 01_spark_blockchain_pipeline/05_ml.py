@@ -44,13 +44,11 @@ def main():
     logger.info(f"=== Using target column: {candidate_features} ===")
     logger.info(f"=== Using feature columns: {target_column} ===")
 
-    ml_dataset = final_df.select(candidate_features+target_column).dropna()
-
     assembler = VectorAssembler(
         inputCols=candidate_features,
         outputCol="features"
     )
-    ml_dataset_transform = assembler.transform(ml_dataset)
+    ml_dataset_transform = assembler.transform(final_df.dropna())
 
     logger.info("=== ML dataset preview ===")
     ml_dataset_transform.show(10, truncate=False)
