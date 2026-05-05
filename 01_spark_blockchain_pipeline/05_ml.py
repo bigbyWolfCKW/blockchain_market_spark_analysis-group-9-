@@ -61,7 +61,7 @@ def main():
     test_df = ml_dataset_trasform_scaled.subtract(train_df)
 
     regression = LinearRegression(featuresCol="scaled_features", labelCol=target_column[0],
-                                  regParam=0.3, elasticNetParam=0.8)
+                                  regParam=0.0, elasticNetParam=0.0)
     lr_model = regression.fit(train_df)
 
     predictions = lr_model.transform(test_df)
@@ -74,8 +74,10 @@ def main():
     predictions_df = predictions_df.sort_values('date')
     predictions_df.to_csv(Path(OUTPUT_FOLDER,"daily_predictions.csv"))
 
+    logger.info(f"Model Coefficients: {lr_model.coefficients}")
     evaluator = RegressionEvaluator(labelCol=target_column[0], predictionCol="prediction", metricName="r2")
     logger.info(f"R-Squared on Test Data: {evaluator.evaluate(predictions):.4f}")
+
 
     # train_data, test_data = ml_dataset_trasform.randomSplit([0.8, 0.2], seed=42)
     # logger.info("=== Training Random Forest regressor ===")
