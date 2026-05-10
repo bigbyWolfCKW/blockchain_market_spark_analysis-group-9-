@@ -1,68 +1,151 @@
-from datetime import datetime, timedelta
 import argparse
-from pyspark.sql import SparkSession
+import subprocess
+import sys
+from pathlib import Path
 
 
-def make_date_paths(base: str, start_date: str, num_days: int) -> list[str]:
-    start = datetime.strptime(start_date, "%Y-%m-%d")
-    paths = []
+BASE_DIR = Path(__file__).resolve().parent
 
-    for i in range(num_days):
-        d = start + timedelta(days=i)
-        day_str = d.strftime("%Y-%m-%d")
-        paths.append(f"{base}date={day_str}/")
 
-    return paths
+def run_step(name: str, relative_path: str, extra_args: list[str] | None = None):
+    extra_args = extra_args or []
+    script_path = BASE_DIR / relative_path
+
+    print("\n" + "=" * 80)
+    print(f"Running step: {name}")
+    print(f"Script: {script_path}")
+    print("=" * 80)
+
+    if not script_path.exists():
+        print(f"ERROR: Script not found: {script_path}")
+        sys.exit(1)
+
+    command = [sys.executable, str(script_path)] + extra_args
+
+    result = subprocess.run(
+        command,
+        cwd=BASE_DIR
+    )
+
+    if result.returncode != 0:
+        print(f"ERROR: Step failed: {name}")
+        sys.exit(result.returncode)
+
+    print(f"Completed step: {name}")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Load AWS BTC raw transactions")
-    parser.add_argument("--start-date", type=str, default="2026-01-01")
-    parser.add_argument("--days", type=int, default=7)
-    args = parser.parse_args()
-
-    spark = (
-        SparkSession.builder
-        .appName("load-aws-btc-transactions")
-        .config(
-            "spark.jars.packages",
-            "org.apache.hadoop:hadoop-aws:3.4.1,com.amazonaws:aws-java-sdk-bundle:1.12.720"
-        )
-        .config(
-            "spark.hadoop.fs.s3a.impl",
-            "org.apache.hadoop.fs.s3a.S3AFileSystem"
-        )
-        .config(
-            "spark.hadoop.fs.s3a.aws.credentials.provider",
-            "org.apache.hadoop.fs.s3a.AnonymousAWSCredentialsProvider"
-        )
-        .config("spark.driver.memory", "4g")
-        .getOrCreate()
+    parser = argparse.ArgumentParser(
+        description="Run legacy daily Spark blockchain pipeline"
     )
 
-    spark.sparkContext.setLogLevel("ERROR")
+    parser.add_argument(
+        "--skip-raw",
+        action="store_true",
+        help="Skip AWS raw BTC transaction loading"
+    )
 
-    base_s3_path = "s3a://aws-public-blockchain/v1.0/btc/transactions/"
-    output_path = "data/raw/aws_btc_transactions"
+    parser.add_argument(
+        "--skip-summary",
+        action="store_true",
+        help="Skip daily summary building"
+    )
 
-    print(f"=== Reading AWS BTC transactions from {args.start_date} for {args.days} days ===")
-    paths = make_date_paths(base_s3_path, args.start_date, args.days)
+    parser.add_argument(
+        "--skip-features",
+        action="store_true",
+        help="Skip enhanced feature engineering"
+    )
 
-    try:
-        df = spark.read.parquet(*paths)
-    except Exception as e:
-        print(f"Failed to read AWS BTC data: {e}")
-        spark.stop()
-        return
+    parser.add_argument(
+        "--skip-postgres",
+        action="store_true",
+        help="Skip blockchain metrics backfill to PostgreSQL"
+    )
 
-    print("=== Raw AWS transaction sample ===")
-    df.show(10, truncate=False)
+    parser.add_argument(
+        "--skip-fusion",
+        action="store_true",
+        help="Skip blockchain-market fusion"
+    )
 
-    print(f"=== Saving raw AWS transactions to {output_path} ===")
-    df.write.mode("overwrite").parquet(output_path)
-    print("Save completed successfully.")
+    parser.add_argument(
+        "--skip-model",
+        action="store_true",
+        help="Skip BTC prediction model training"
+    )
 
-    spark.stop()
+    parser.add_argument(
+        "--start-date",
+        type=str,
+        default="2026-01-01",
+        help="Start date for AWS BTC raw transaction loading"
+    )
+
+    parser.add_argument(
+        "--days",
+        type=int,
+        default=7,
+        help="Number of days to load from AWS BTC public dataset"
+    )
+
+    args = parser.parse_args()
+
+    if not args.skip_raw:
+        run_step(
+            name="Load AWS BTC Raw Transactions",
+            relative_path="01_data_sources/load_aws_btc_transactions.py",
+            extra_args=[
+                "--start-date", args.start_date,
+                "--days", str(args.days)
+            ]
+        )
+    else:
+        print("Skipping raw AWS BTC transaction loading.")
+
+    if not args.skip_summary:
+        run_step(
+            name="Build AWS Daily Summary",
+            relative_path="02_processing_etl/build_daily_summary_from_aws.py"
+        )
+    else:
+        print("Skipping daily summary building.")
+
+    if not args.skip_features:
+        run_step(
+            name="Build Enhanced AWS BTC Features",
+            relative_path="02_processing_etl/build_aws_btc_featuresEnhance.py"
+        )
+    else:
+        print("Skipping enhanced feature engineering.")
+
+    if not args.skip_postgres:
+        run_step(
+            name="Backfill Blockchain Metrics to PostgreSQL",
+            relative_path="03_data_integration/blockchain_metrics_to_postgres.py"
+        )
+    else:
+        print("Skipping PostgreSQL blockchain metrics backfill.")
+
+    if not args.skip_fusion:
+        run_step(
+            name="Fuse Blockchain and Market Data",
+            relative_path="03_data_integration/fuse_blockchain_market_postgres.py"
+        )
+    else:
+        print("Skipping blockchain-market fusion.")
+
+    if not args.skip_model:
+        run_step(
+            name="Train BTC Prediction Model",
+            relative_path="04_ml_and_analytics/train_btc_model.py"
+        )
+    else:
+        print("Skipping BTC prediction model training.")
+
+    print("\n" + "=" * 80)  
+    print("Legacy daily Spark blockchain pipeline completed successfully.")
+    print("=" * 80)
 
 
 if __name__ == "__main__":

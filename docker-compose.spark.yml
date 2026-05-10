@@ -1,0 +1,79 @@
+services:
+  spark-master:
+    image: spark:3.5.8-python3
+    container_name: spark-master
+    user: root
+    command: >
+      /opt/spark/bin/spark-class
+      org.apache.spark.deploy.master.Master
+      --host 0.0.0.0
+    ports:
+      - "7077:7077"
+      - "8080:8080"
+    volumes:
+      - ./:/app
+    working_dir: /app
+
+  spark-worker-1:
+    image: spark:3.5.8-python3
+    container_name: spark-worker-1
+    user: root
+    command: >
+      /opt/spark/bin/spark-class
+      org.apache.spark.deploy.worker.Worker
+      spark://spark-master:7077
+      --cores 4
+      --memory 10G
+    depends_on:
+      - spark-master
+    volumes:
+      - ./:/app
+    working_dir: /app
+
+  spark-worker-2:
+    image: spark:3.5.8-python3
+    container_name: spark-worker-2
+    user: root
+    command: >
+      /opt/spark/bin/spark-class
+      org.apache.spark.deploy.worker.Worker
+      spark://spark-master:7077
+      --cores 4
+      --memory 10G
+    depends_on:
+      - spark-master
+    volumes:
+      - ./:/app
+    working_dir: /app
+
+  spark-worker-3:
+    image: spark:3.5.8-python3
+    container_name: spark-worker-3
+    user: root
+    command: >
+      /opt/spark/bin/spark-class
+      org.apache.spark.deploy.worker.Worker
+      spark://spark-master:7077
+      --cores 4
+      --memory 10G
+    depends_on:
+      - spark-master
+    volumes:
+      - ./:/app
+    working_dir: /app
+
+  spark-worker-4:
+    image: spark:3.5.8-python3
+    container_name: spark-worker-4
+    user: root
+    command: >
+      /opt/spark/bin/spark-class
+      org.apache.spark.deploy.worker.Worker
+      spark://spark-master:7077
+      --cores 4
+      --memory 10G
+    depends_on:
+      - spark-master
+    volumes:
+      - ./:/app
+    working_dir: /app

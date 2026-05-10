@@ -5,9 +5,12 @@ This is an end-to-end Data Engineering and Machine Learning pipeline designed fo
 
 Both pipelines feed into a centralized PostgreSQL database, serving as the single source of truth for a real-time Grafana monitoring dashboard.
 
+  An enhanced hourly volatility-risk pipeline included based on presenation comments. The enhanced version uses a Docker-based Spark cluster for multiple workers, multiple years of hourly BTC blockchain features, Binance hourly market data, and Spark ML models to generate volatility risk scores for Grafana. And the prediction score has much been improved.
+
 ##  Architecture
 * **Pipeline 1:** `Apache Spark` / `PySpark` for batch processing historical blockchain data, ETL, and training a Random Forest Machine Learning model to predict BTC price movements.
 * **Pipeline 2:** `asyncio` & `WebSockets` (Binance API for Crypto, Alpaca API for US Stocks) for real-time market data ingestion.
+* **Enhanced Spark Cluster Pipeline:** Docker-based Spark standalone cluster for at least 3-year hourly blockchain feature engineering and volatility-risk modeling.
 * **Storage & UI:** `PostgreSQL` (Optimized with time-series indexing) + `Grafana` (Real-time tracking and ML prediction overlay).
 
 ## 🗂️ Project Structure
@@ -18,33 +21,47 @@ BLOCKCHAIN/
 │
 ├── 01_spark_blockchain_pipeline/
 │   ├── 01_data_sources/
-│   │   ├── load_aws_btc_transactions.py
-│   │   └── load_local_blocks_csv.py
-│   │
 │   ├── 02_processing_etl/
-│   │   ├── build_aws_btc_features.py
-│   │   ├── build_aws_btc_featuresEnhance.py
 │   │   ├── build_daily_summary_from_aws.py
-│   │   └── build_daily_summary_from_local.py
+│   │   ├── build_aws_btc_featuresEnhance.py
+│   │   └── build_hourly_summary_direct_from_aws.py
 │   │
 │   ├── 03_data_integration/
 │   │   ├── blockchain_metrics_to_postgres.py
-│   │   └── fuse_blockchain_market_postgres.py
+│   │   ├── fuse_blockchain_market_postgres.py
+│   │   ├── upload_hourly_volatility_predictions.py
+│   │   └── upload_hourly_realized_volatility_predictions.py
 │   │
 │   ├── 04_ml_and_analytics/
-│   │   └── train_btc_model.py
+│   │   ├── train_btc_model.py
+│   │   ├── build_hourly_ml_dataset.py
+│   │   ├── train_hourly_classifiers.py
+│   │   └── train_hourly_realized_volatility_regressors.py
 │   │
 │   ├── main_run.py
-│   └── readme.md
+│   ├── main_run_enhanced.py
 │
+├── 02_spark_market_data_pipeline/
+│   ├── 01_data_sources/
+│   ├── 02_processing_etl/
+│   │   └── build_binance_hourly_parquet.py
+│   ├── 04_ml_and_analytics/
+│   └── main_run_02.py
+│
+├── 03_postgres_database/
+├── 04_grafana_dashboards/
 ├── data/
+├── output/
+├── docker-compose.spark.yml
+├── README.md
+├── uv.lock
 ├── .env
 └── .gitignore
 ```
 ## How to Run
 
 ### 1. Prerequisite
-This repo is designed to be executed in Linux or WSL2 environment, with specific Java SDK, Apache Spark and python version. PostgreSQL is used in market data steps.
+This repo is designed to be executed in Linux or WSL2 environment, with specific Java SDK, Apache Spark and python version. PostgreSQL is used in Grafana serving steps.
 ```bash
 Java JDK 21.0.10
 Apache Spark 4.1.1
@@ -131,7 +148,27 @@ DB_USER=your_username
 DB_PASSWORD=your_password
 DB_DRIVER=org.postgresql.Driver
 ```
-### 7. Run the pipeline
+### 7. Run the daily pipeline (quick and old method)
 ```bash
 python 01_spark_blockchain_pipeline/main_run.py --days 30
+```
+### 8. Run the market data pipeline (for prediction reference and dashboard completeness)
+```bash
+python 02_spark_market_data_pipeline/main_run_02.py
+```
+### 9. Run the enhanced hourly Spark volatility pipeline (final version)
+Start Spark standalone cluster:
+```bash
+docker compose -f docker-compose.spark.yml up -d
+```
+Open Spark UI:
+http://localhost:8080
+
+Run enhanced pipeline demo using prepared Parquet outputs:
+```bash
+python main_run_enhanced.py
+```
+Run full 3-year blockchain rebuild if needed:
+```bash
+python main_run_enhanced.py --full-rebuild-blockchain
 ```
